@@ -67,23 +67,23 @@ const OurTechnology = () => {
     return (
         <section>
             <CategoryTitle title={"Our Technology"} />
-            <h3 className="text-xl my-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iste magni eum dolores facilis, harum illo reprehenderit assumenda similique quibusdam quae impedit exercitationem saepe obcaecati ad quia! Excepturi, aliquid explicabo. Lorem ipsum dolor sit amet, consectetur adip sint distinctio optio laborioam. Quis alias reiciendis at repellendus odit saepe unde temporibus?</h3>
+            <h3 className="sm:text-sm md:text-md lg:text-lg sm:my-6 md:my-8 lg:my-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iste magni eum dolores facilis, harum illo reprehenderit assumenda similique quibusdam quae impedit exercitationem saepe obcaecati ad quia! Excepturi, aliquid explicabo. Lorem ipsum dolor sit amet, consectetur adip sint distinctio optio laborioam. Quis alias reiciendis at repellendus odit saepe unde temporibus?</h3>
 
 
             {/* ============== 3 design =========== */}
 
-            <div className="md:flex flex-row justify-evenly space-y-5 items-center">
-                <div className="w-72 h-72 p-4 bg-gradient-to-br from-blue-800 to-yellow-300 rounded-3xl">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
+                <div className="sm:w-40 md:w-52 lg:w-72 lg:h-72 md:h-52 sm:h-40 sm:p-2 md:p-3 lg:p-4 bg-gradient-to-br from-blue-800 to-yellow-300 rounded-3xl mx-auto">
                     <div className="w-full h-full bg-white rounded-3xl flex items-center justify-center">
                         <p className="text-xl font-bold">AI</p>
                     </div>
                 </div>
-                <div className="w-72 h-72 p-4 bg-gradient-to-t from-blue-800 to-yellow-300 rounded-full">
+                <div className="sm:w-40 md:w-52 lg:w-72 lg:h-72 sm:my-12 md:h-52 sm:h-40 sm:p-2 md:p-3 lg:p-4 bg-gradient-to-t from-blue-800 to-yellow-300 rounded-full mx-auto">
                     <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
                         <p className="text-xl font-bold">ERP Solution</p>
                     </div>
                 </div>
-                <div className="w-64 h-64 p-4 bg-gradient-to-b from-blue-700 to-blue-300 rounded-3xl transform rotate-45">
+                <div className="sm:w-40 md:w-52 lg:w-64 lg:h-64 md:h-52 sm:h-40 sm:p-2 md:p-3 lg:p-4 bg-gradient-to-b from-blue-700 to-blue-300 rounded-3xl transform rotate-45 mx-auto">
                     <div className="flex items-center justify-center w-full h-full bg-white rounded-3xl">
                         <p className="text-xl font-bold -rotate-45">LOT</p>
                     </div>
@@ -92,7 +92,7 @@ const OurTechnology = () => {
 
             {/*========== Technology Tab ========= */}
 
-            <div className="tabs shadow shadow-gray-400 p-4 my-16 font-bold px-12">
+            <div className="tabs shadow shadow-gray-400 p-4 my-16 font-bold px-3">
                 <a className="tab text-blue-700 border-b-2 border-blue-700 text-base">Language</a>
                 <a className="tab text-base">Frontend</a>
                 <a className="tab text-base">UI/UX</a>

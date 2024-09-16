@@ -5,7 +5,7 @@ import WhayUs from "../WhayUs/WhayUs";
 
 const About = () => {
     return (
-        <div className="px-12">
+        <div className="sm:px-2 md:px-4 lg:px-12">
             <WeAre />
             <WhayUs />
             <Mission />

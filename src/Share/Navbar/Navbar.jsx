@@ -36,16 +36,16 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl text-blue-500 font-bold">ShijiBusy</a>
+                <a className="btn btn-ghost xs:text-md sm:text-lg md:text-3xl text-blue-500 font-bold ">ShijiBusy</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu text-lg gap-2 menu-horizontal">
                     {navItems}
                 </ul>
             </div>
-            <div className="navbar-end gap-3 pr-10">
-                <a className="btn rounded-3xl text-white px-10 bg-blue-400">Contact</a>
-                <a className="btn rounded-3xl text-white px-8 bg-blue-400">Blogs</a>
+            <div className="navbar-end md:gap-3 sm:gap-2 md:pr-7 lg:pr-10">
+                <a className="cursor-pointer sm:py-1 md:py-3 rounded-3xl text-white md:px-10 xs:px-1 sm:px-2 bg-blue-400">Contact</a>
+                <a className="cursor-pointer sm:py-1 md:py-3 rounded-3xl text-white md:px-8 xs:px-1 sm:px-2 bg-blue-400">Blogs</a>
             </div>
         </div>
     );
